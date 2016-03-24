@@ -14,6 +14,7 @@
 		183A6C921CA3E5C300DE1D38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183A6C901CA3E5C300DE1D38 /* LaunchScreen.storyboard */; };
 		183A6C9D1CA3E5C300DE1D38 /* SwiftPlayMediaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A6C9C1CA3E5C300DE1D38 /* SwiftPlayMediaTests.swift */; };
 		183A6CA81CA3E5C300DE1D38 /* SwiftPlayMediaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A6CA71CA3E5C300DE1D38 /* SwiftPlayMediaUITests.swift */; };
+		18C9FD7E1CA3F54500A90391 /* 006.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18C9FD7D1CA3F54500A90391 /* 006.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		183A6CA31CA3E5C300DE1D38 /* SwiftPlayMediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftPlayMediaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		183A6CA71CA3E5C300DE1D38 /* SwiftPlayMediaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPlayMediaUITests.swift; sourceTree = "<group>"; };
 		183A6CA91CA3E5C300DE1D38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C9FD7D1CA3F54500A90391 /* 006.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 006.mp3; path = "../../Documents/King Help/Lesong/006.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		183A6C7B1CA3E5C300DE1D38 = {
 			isa = PBXGroup;
 			children = (
+				18C9FD7D1CA3F54500A90391 /* 006.mp3 */,
 				183A6C861CA3E5C300DE1D38 /* SwiftPlayMedia */,
 				183A6C9B1CA3E5C300DE1D38 /* SwiftPlayMediaTests */,
 				183A6CA61CA3E5C300DE1D38 /* SwiftPlayMediaUITests */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C9FD7E1CA3F54500A90391 /* 006.mp3 in Resources */,
 				183A6C921CA3E5C300DE1D38 /* LaunchScreen.storyboard in Resources */,
 				183A6C8F1CA3E5C300DE1D38 /* Assets.xcassets in Resources */,
 				183A6C8D1CA3E5C300DE1D38 /* Main.storyboard in Resources */,
@@ -484,6 +488,7 @@
 				183A6CAE1CA3E5C300DE1D38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		183A6CAF1CA3E5C300DE1D38 /* Build configuration list for PBXNativeTarget "SwiftPlayMediaTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				183A6CB11CA3E5C300DE1D38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		183A6CB21CA3E5C300DE1D38 /* Build configuration list for PBXNativeTarget "SwiftPlayMediaUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				183A6CB41CA3E5C300DE1D38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
